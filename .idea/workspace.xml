@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="aabfc6f5-c75e-4e98-bac0-e32f87e41f4b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,9 +48,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="145" key="SettingsEditor/1920.0.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1589448875737" />
-    <state x="917" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1589493942093">
+    <state x="917" y="327" key="com.intellij.ide.util.TipDialog" timestamp="1589751889064">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="917" y="327" key="com.intellij.ide.util.TipDialog/1920.0.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1589493942093" />
+    <state x="917" y="327" key="com.intellij.ide.util.TipDialog/1920.0.1680.1010/0.0.1920.1040@0.0.1920.1040" timestamp="1589751889064" />
   </component>
 </project>
