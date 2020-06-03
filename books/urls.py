@@ -10,7 +10,7 @@ urlpatterns = [
     path('book/', views.BookList.as_view(), name='book_list'),
 
     # /books/author/
-    paht('author/', views.AuthorList.as_view(), name='author_list'),
+    path('author/', views.AuthorList.as_view(), name='author_list'),
 
     # /books/publisher/
     path('publisher/',views.PublisherList.as_view(), name='publisher_list'),
