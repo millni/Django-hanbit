@@ -141,6 +141,7 @@ LOGGING = {
             'filename': os.path.join(BASE_DIR, 'logs', 'mysite.log'),
             'formatter': 'verbose'
         },
+    },
     'loggers': {
         'polls': {
             'handlers': ['file'],

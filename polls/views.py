@@ -19,7 +19,7 @@ class DetailView(generic.DetailView):
     model = Question
     template_name = 'polls/detail.html'
 
-class ResultView(generic.DetailView):
+class ResultsView(generic.DetailView):
     model = Question
     template_name = 'polls/results.html'
 
@@ -30,7 +30,7 @@ logger = logging.getLogger(__name__)
 #-- Function-based View
 def vote(request, question_id):
     logger.debug("vote().question_id: %s" % question_id)    # 추가
-    question =get_object_or_404(Question, pk=question_id)
+    question = get_object_or_404(Question, pk=question_id)
     try:
         selected_choice = question.choice_set.get(pk=request.POST['choice'])
     except (KeyError, Choice.DoesNotExist):
